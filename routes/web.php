@@ -24,3 +24,5 @@ Route::apiResource('products',ProductController::class)->names('api.products');
 Route::apiResource('units',UnitController::class)->names('api.units');
 Route::apiResource('users',UserController::class)->names('api.users');
 Route::apiResource('transaction',TransactionPaymentController::class)->names('api.transactionPayment');
+
+
